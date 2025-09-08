@@ -1,12 +1,13 @@
 # 🎬 IMDb Sentiment Analysis
 
-A machine learning-powered web app that predicts whether a movie review is **positive** or **negative**. This project demonstrates the application of **Natural Language Processing (NLP)**, sentiment classification, and model deployment.
+A machine learning-powered web app that predicts whether a movie review is **positive** or **negative**.  
+This project demonstrates the application of **Natural Language Processing (NLP)**, sentiment classification, and model deployment.
 
 ---
 
 ## 🚀 Demo
 
-🌐 [Live App]([#](https://imdb-sentiment-analysis-jgnxtzby3uuwsimweuny3s.streamlit.app/))
+🌐 [Live App](https://imdb-sentiment-analysis-jgnxtzby3uuwsimweuny3s.streamlit.app/)
 
 ---
 
@@ -23,19 +24,34 @@ A machine learning-powered web app that predicts whether a movie review is **pos
 
 - **Model**: Logistic Regression Classifier  
 - **Vectorization**: TF-IDF (Term Frequency–Inverse Document Frequency)  
-- **Dataset**: IMDb Movie Reviews Dataset  
+- **Dataset**: [IMDb Movie Reviews Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)  
 - **Target**: Sentiment (Positive / Negative)  
+
+---
+
+## ☁️ Why Hugging Face Hub?
+
+Since model files (`sentiment_model.pkl` and `vectorizer.pkl`) can be **large**, they are not stored directly in the GitHub repo.  
+Instead, they are hosted on **Hugging Face Hub**, which allows:
+
+- Free and secure storage of ML models  
+- Easy integration with Python apps via `huggingface_hub`  
+- Keeping the GitHub repo lightweight and under size limits  
+- Option to keep models **private** while still using them in deployment  
+
+In this project, the app downloads the trained model and vectorizer at runtime using the Hugging Face Hub.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: Streamlit / Flask (depending on your app setup)  
+- **Frontend**: Streamlit  
 - **Backend**: Python, Scikit-learn  
 - **NLP**: NLTK, Scikit-learn TF-IDF  
 - **Data Handling**: Pandas, NumPy  
 - **Model Serialization**: Joblib  
-- **Deployment**: Streamlit Cloud / Render / Heroku  
+- **Model Hosting**: Hugging Face Hub  
+- **Deployment**: Streamlit Cloud  
 
 ---
 
