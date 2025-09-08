@@ -24,7 +24,7 @@ This project demonstrates the application of **Natural Language Processing (NLP)
 
 - **Model**: Logistic Regression Classifier  
 - **Vectorization**: TF-IDF (Term Frequency–Inverse Document Frequency)  
-- **Dataset**: [IMDb Movie Reviews Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)  
+- **Dataset**: [IMDb Movie Reviews Dataset]([https://ai.stanford.edu/~amaas/data/sentiment/](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews))  
 - **Target**: Sentiment (Positive / Negative)  
 
 ---
