@@ -6,7 +6,7 @@ A machine learning-powered web app that predicts whether a movie review is **pos
 
 ## 🚀 Demo
 
-🌐 [Live App](#) *(Add your deployment link here once hosted)*  
+🌐 [Live App]([#](https://imdb-sentiment-analysis-jgnxtzby3uuwsimweuny3s.streamlit.app/))
 
 ---
 
